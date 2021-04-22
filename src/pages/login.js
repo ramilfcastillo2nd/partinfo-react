@@ -20,7 +20,6 @@ const tailLayout = {
 
 const LoginComponent =() => {
   
-const [autoLogin, setAutoLogin] = useState(true);
 const [userName, setUserName] = useState('');
 const [password, setPassword] = useState('');
 
@@ -82,7 +81,7 @@ const onLogin = () => {
       </Form.Item>
 
       <Form.Item {...tailLayout} name="remember">
-        <Checkbox  checked={autoLogin}>Remember me</Checkbox>
+        <Checkbox>Remember me</Checkbox>
       </Form.Item>
 
       <Form.Item {...tailLayout}>

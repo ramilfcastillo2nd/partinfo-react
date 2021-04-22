@@ -5,7 +5,7 @@ import Login from './login';
 import routes from '../routes';
 
 const RenderRoute = (route) => {
-  const history = useHistory();
+  // const history = useHistory();
   if(route.route.needsAuth && !isAuthenticated()){
     // history.push('/auth');
     return (
