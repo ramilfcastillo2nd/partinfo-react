@@ -57,8 +57,8 @@ const onLogin = () => {
     <ToastContainer />
     <div className="login-container container"></div>
     <Row>
-      <Col md="2" span={9}></Col>
-      <Col md="8" span={5}>
+      <Col span={9}></Col>
+      <Col span={5}>
       <Form
       {...layout}
       name="basic"
@@ -95,7 +95,7 @@ const onLogin = () => {
       
       
       </Col>
-      <Col md="2" span={9}></Col>
+      <Col span={9}></Col>
     </Row>
  
     
